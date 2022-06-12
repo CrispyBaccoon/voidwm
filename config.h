@@ -45,7 +45,7 @@ static const int rainbowtags    = 1;        /* 1 means rainbow tags */
 
 /* --------------- patches --------------- */
 #define FORCE_VSPLIT            1           /* nrowgrid layout: force two clients to always split vertically */
-#define VIEWONTAG               1           /* switch view on tag switch */
+#define VIEWONTAG               0           /* switch view on tag switch */
 #define PERTAG_VANITYGAPS       1           /* vanitygaps per tag */
 
 /* --------------- systray --------------- */
