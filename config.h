@@ -187,7 +187,7 @@ static Key keys[]               = {
 	/* modifier                     key         function        argument */
 	{ MODKEY,                       XK_Return,  spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_d,       spawn,          {.v = menucmd } },
-	{ MODKEY,                       XK_q,       xrdb,           {.v = NULL    } },
+	{ MODKEY|ControlMask,           XK_r,       xrdb,           {.v = NULL    } },
 	{ MODKEY|ShiftMask,             XK_q,       quit,           {1} },
 	{ MODKEY|ControlMask,           XK_q,       quit,           {0} },
 
@@ -210,7 +210,7 @@ static Key keys[]               = {
 	{ MODKEY|ControlMask,           XK_equal,   incrgaps,       {.i = +3 } }, /* inc all gaps */
 
 	/* ----------- stack ----------- */
-	{ MODKEY|ShiftMask,             XK_c,       killclient,     {0} },
+	{ MODKEY,                       XK_q,       killclient,     {0} },
 	{ MODKEY,                       XK_e,       focusurgent,    {0} },
 	{ MODKEY,                       XK_s,       togglesticky,   {0} },
 	{ MODKEY,                       XK_j,       focusstack,     {.i = +1 } },
