@@ -50,7 +50,7 @@ static const int rainbowtags    = 1;        /* 1 means rainbow tags */
 
 /* --------------- systray --------------- */
 static unsigned int systrayspacing  = 3;    /* systray spacing */
-static          int showsystray     = 1;    /* 0 means no systray */
+static          int showsystray     = 0;    /* 0 means no systray */
 
 /* -------------- autostart -------------- */
 static const char autostartsh[]     = "autostart.sh";
@@ -67,8 +67,8 @@ static const unsigned int ulinevoffset  = 0;     /* how far above the bottom of 
 #define APP_BROWSER             "firefox"
 #define APP_BROWSER_            "firefox --private-window"
 #define APP_MENU                "dmenu_run"
-#define APP_TERM                "st"
-#define CLASS_TERM              "St"
+#define APP_TERM                "alacritty"
+#define CLASS_TERM              "Alacritty"
 #define CLASS_SP                "ScratchPad"
 #define TITLE_SP                "scratchpad"
 
