@@ -64,7 +64,7 @@ static const unsigned int ulinestroke   = 2;     /* underline thickness */
 static const unsigned int ulinevoffset  = 0;     /* how far above the bottom of the bar the line should appear */
 
 /* --------------- defaults -------------- */
-#define APP_BROWSER             "firefox"
+#define APP_BROWSER             "qutebrowser"
 #define APP_BROWSER_            "firefox --private-window"
 #define APP_MENU                "dmenu_run"
 #define APP_TERM                "alacritty"
