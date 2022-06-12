@@ -188,7 +188,7 @@ static Key keys[]               = {
 	{ MODKEY,                       XK_Return,  spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_d,       spawn,          {.v = menucmd } },
 	{ MODKEY|ControlMask,           XK_r,       xrdb,           {.v = NULL    } },
-	{ MODKEY|ShiftMask,             XK_q,       quit,           {1} },
+	{ MODKEY|Mod1Mask,              XK_q,       quit,           {1} },
 	{ MODKEY|ControlMask,           XK_q,       quit,           {0} },
 
 	/* ---------- layouts ---------- */
@@ -210,7 +210,7 @@ static Key keys[]               = {
 	{ MODKEY|ControlMask,           XK_equal,   incrgaps,       {.i = +3 } }, /* inc all gaps */
 
 	/* ----------- stack ----------- */
-	{ MODKEY,                       XK_q,       killclient,     {0} },
+	{ MODKEY|ShiftMask,             XK_q,       killclient,     {0} },
 	{ MODKEY,                       XK_e,       focusurgent,    {0} },
 	{ MODKEY,                       XK_s,       togglesticky,   {0} },
 	{ MODKEY,                       XK_j,       focusstack,     {.i = +1 } },
