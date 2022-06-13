@@ -14,8 +14,8 @@ static          int smartgaps   = 0;        /* 1 means no outer gap when there i
 static          int enablegaps  = 1;        /* 1 means enable gaps on startup */
 static unsigned int gappih      = 10;       /* horiz inner gap between windows */
 static unsigned int gappiv      = 10;       /* vert inner gap between windows */
-static unsigned int gappoh      = 10;       /* horiz outer gap between windows and screen edge */
-static unsigned int gappov      = 10;       /* vert outer gap between windows and screen edge */
+static unsigned int gappoh      = 16;       /* horiz outer gap between windows and screen edge */
+static unsigned int gappov      = 16;       /* vert outer gap between windows and screen edge */
 
 /* ----------------- bar ----------------- */
 #define BARHEIGHT_STR           "27"        /* dmenu_run's -h value, match with barheight below */
