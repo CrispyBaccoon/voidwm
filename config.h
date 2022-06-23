@@ -5,6 +5,7 @@ static const char *fonts[]      = { "JetBrainsMono Nerd Font:style=medium:size=1
 static unsigned int borderpx    = 2;        /* border pixel of windows */
 static unsigned int snap        = 10;       /* snap pixel */
 static int swallowfloating      = 0;        /* 1 means swallow floating windows by default */
+static int defaultfloating      = 0;        /* 1 means floating windows by default */
 static const float mfact        = 0.50;     /* factor of master area size [0.05..0.95] */
 static const int nmaster        = 1;        /* number of clients in master area */
 static const int resizehints    = 0;        /* 1 means respect size hints in tiled resizals */
